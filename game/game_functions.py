@@ -46,8 +46,6 @@ def update_bullets(ai_settings, bullets, aliens):
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
 
-    check_bullet_aliens_collisions(ai_settings, )
-
 
 #检查外星人是否被完全消灭
 def check_bullet_aliens_collisions(ai_settings, screen, ship, aliens, bullets):
