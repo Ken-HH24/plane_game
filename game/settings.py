@@ -5,9 +5,10 @@ class Settings():
         self.bg_color = (230, 230, 230)
 
         self.ship_speed_factor = 1.5
+        self.ship_limit = 3
 
-        self.alien_speed_factor = 0.6
-        self.fleet_drop_factor = 3
+        self.alien_speed_factor = 1
+        self.fleet_drop_factor = 10
         self.fleet_direction = 1
 
         self.bullet_speed_factor = 1
